@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PeopleListComponent from '../components/people-list.component';
 
 class AppContainer extends Component{
     constructor(props){
@@ -9,6 +10,7 @@ class AppContainer extends Component{
         return(
             <div>
                 Welcome on dotnetowo.pl
+                <PeopleListComponent name={'My first child component'} />
             </div>
         );
     }
